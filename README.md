@@ -1,8 +1,9 @@
 # __🎙️ PDF Reader__
 - Leitor de PDF que utiliza a biblioteca Tkinter para criar uma interface gráfica de usuário (GUI) e a biblioteca PyPDF2 para manipular arquivos PDF. Ele também usa a API de Texto-para-Fala (gTTS) do Google para converter texto em fala e a biblioteca OS para salvar e reproduzir o áudio. A biblioteca Threading também é usada para tornar a GUI responsiva durante a conversão PDF para MP3.
 
-# __📷 Imagens__
-![](/img_exemplo.png?raw=true "Exemplo") <br>
+<p align="center">
+  <img src="/img_exemplo.png?raw=true "Exemplo")" />
+</p>
 
 # __🤔 Como utilizar?__
 Para usar esse código, você precisará ter as seguintes bibliotecas instaladas: PyPDF2, gtts e threading. Você pode instalá-las usando o gerenciador de pacotes pip:
