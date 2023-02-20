@@ -16,4 +16,4 @@ Para selecionar o arquivo PDF, clique no botão "Selecionar PDF" e navegue até 
 
 Se o número de páginas no PDF for maior que o limite definido na variável "pag_limit" (50 páginas), uma mensagem de erro será exibida informando que o limite foi ultrapassado.
 
-Uma vez que a narração tenha sido concluída, o áudio será salvo com o nome "audio.mp3" no mesmo diretório do script.
+Uma vez que a narração tenha sido concluída, o áudio será salvo no mesmo diretório do script.
