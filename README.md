@@ -1,5 +1,5 @@
 # __🎙️ PDF Reader__
-- Leitor de PDF que utiliza a biblioteca Tkinter para criar uma interface gráfica de usuário (GUI) e a biblioteca PyPDF2 para manipular arquivos PDF. Ele também usa a API de Texto-para-Fala (gTTS) do Google para converter texto em fala e a biblioteca OS para salvar e reproduzir o áudio. A biblioteca Threading também é usada para tornar a GUI responsiva durante a conversão PDF para MP3.
+- Leitor de PDF que utilizando a biblioteca Tkinter, cria uma interface gráfica de usuário responsiva junto com a biblioteca PyPDF2 para manipular arquivos PDF. Para converter texto em fala é usado da API de Texto-para-Fala (gTTS) do Google e a biblioteca OS para salvar e reproduzir o áudio.
 
 <p align="center">
   <img src="/img_exemplo.png?raw=true "Exemplo")" />
@@ -10,10 +10,8 @@
 2. Bibliotecas PyPDF2 & gTTS
 
 # __🤔 Como utilizar?__
-Depois de instalar as bibliotecas, você pode rodar o código como qualquer outro script Python. Ele criará uma janela GUI com vários widgets, incluindo um botão para selecionar o arquivo PDF, um botão para iniciar a narração, uma caixa combinada para selecionar o idioma, uma entrada para exibir o caminho do arquivo PDF selecionado e uma caixa de seleção para habilitar a narração lenta.
+Para selecione o arquivo PDF a ser convertido, clique no botão superior esquerdo e navegue até o arquivo desejado. Em seguida, selecione o idioma da narração e clique no botão para iniciar a narração. Se você quiser habilitar a narração lenta, marque a caixa de Narração lenta antes de clicar para narrar. Durante a narração, uma barra de progresso será exibida na janela para mostrar o progresso da conversão caso o PDF seja muito grande.
 
-Para selecionar o arquivo PDF, clique no botão "Selecionar PDF" e navegue até o arquivo desejado. Em seguida, selecione o idioma desejado na caixa combinada e clique no botão "Narrar" para iniciar a narração. Se você quiser habilitar a narração lenta, marque a caixa de seleção "Narração lenta" antes de clicar no botão "Narrar". Durante a narração, uma barra de progresso será exibida na janela para mostrar o progresso da conversão.
-
-Se o número de páginas no PDF for maior que o limite definido na variável "pag_limit" (50 páginas), uma mensagem de erro será exibida informando que o limite foi ultrapassado.
+Se o número de páginas no PDF for maior que o limite definido na variável "pag_limit" (50 páginas), uma mensagem de erro será exibida informando que o limite foi ultrapassado. Sinta-se a vontade para aumentar o limite caso necessário.
 
 Uma vez que a narração tenha sido concluída, o áudio será salvo no mesmo diretório do script.
